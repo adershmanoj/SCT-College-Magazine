@@ -1,0 +1,385 @@
+/* Overlay style */
+#menu-mobile .overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index:999;
+}
+
+/* Overlay closing cross */
+#menu-mobile .overlay #menu-mobile .overlay-close {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow: hidden;
+	border: none;
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100;
+	display:none;
+}
+
+/* Menu style */
+#menu-mobile .overlay nav {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#menu-mobile .overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+
+#menu-mobile .overlay ul li {
+	display: block;
+	height: 20%;
+	height: calc(100% / 5);
+	min-height: 54px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+#menu-mobile .overlay ul li a {
+	font-size: 40px;
+	font-weight: 300;
+	display: block;
+	color: #fff;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+#menu-mobile .overlay ul li a:hover,
+#menu-mobile .overlay ul li a:focus {
+	color: #fff;
+}
+
+/* Effects */
+#menu-mobile .overlay-slidedown {
+	visibility: hidden;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
+	transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+}
+
+#menu-mobile .overlay-slidedown.open {
+	visibility: visible;
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out;
+}
+
+@media screen and (max-height: 30.5em) {
+	#menu-mobile .overlay nav {
+		height: 70%;
+		font-size: 34px;
+	}
+	#menu-mobile .overlay ul li {
+		min-height: 34px;
+	}
+}
+
+@media (max-width:768px) {
+
+	header .logo img {
+		margin-top:30px;
+	}
+
+	header .freccia {
+		margin: 100px 0;
+		color: #fff;
+	}
+
+	/* Books */
+
+	#books {
+		margin-top:150px;
+	}
+
+	.book1 .description, .book2 .description {
+		padding:50px 0 0 0px;
+	}
+
+
+	/* News */
+
+	#blog {
+		overflow: hidden;
+	}
+
+	#blog .divider2 {
+		background:none;
+		margin-top:80px;
+	}
+
+	/* Team */
+
+	#team {
+		margin-bottom:0;
+	}
+
+	#team .member {
+		padding:25%;
+		margin-top:0px;
+	}
+
+	#team .member .single-member {
+		margin:30px;
+		padding:10px;
+		border:4px solid #fff;
+		-ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);	
+	}
+
+	#team .member .single-member .photo {
+		background:url("../images/default.jpg") no-repeat center center;
+		background-size:cover;
+	}
+
+	#team .member h3 {
+		padding-top:50px;
+	}
+
+
+	/* Contact */
+	
+	#contact .busta {
+		background:none;
+		height:auto;
+		margin:0;
+		padding:0;
+	}
+
+	#contact .busta input, #contact .busta textarea {
+		font-size:16px;
+		width:350px;
+		margin-left:0px;
+	}
+
+	#contact .busta .btn {
+		margin:0px;
+		margin-top:50px;
+	}
+
+	#contact .social {
+		max-width:auto;
+		margin:0;
+		float:none;
+		margin-top:100px;
+	}
+
+	#contact .social .btn {
+		width:300px;
+		padding:10px 40px;
+		border-radius:0;
+		border:3px solid #202326;
+		font-size:18px;
+		color:#202326;
+		background:#fff;
+		float:none;
+		margin:0 auto;
+		margin-top:20px;
+	}
+
+	#contact .social .twitter {
+		margin-left:0px !important;
+	}
+
+	#contact .social .instagram {
+		margin-left:0px !important;
+	}	
+
+	-webkit-input-placeholder { color:#202326; }
+	-moz-placeholder { color:#202326; } /* firefox 19+ */
+	-ms-input-placeholder { color:#202326; } /* ie */
+	input:-moz-placeholder { color:#202326; }
+
+}
+
+@media (min-width: 769px) {
+
+	#contact .social h1, #contact .social .divider {
+		display:none;
+	}
+
+}
+
+@media (max-width: 992px) {
+    /* Navbar */
+    .navbar {
+    	background:none;
+    	border:none;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-brand {
+    	display:none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+        background: #202326;
+    }
+    .navbar-collapse {
+        border-top: none;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+	.book1 .description h2 {
+		font-size:34px;
+	}
+
+	/* Books */
+
+ 	.book1-internal {
+ 		padding-left:15px;
+ 	}
+	.book0-internal {
+		padding-right:0;
+	}
+
+	.book0 .description h2 {
+		margin-top:50px;
+		font-size:34px;
+	}
+
+}
+
+@media (min-width:769px) and (max-width: 990px) {
+
+	/* Books */
+
+ 	.book1-internal {
+ 		padding-left:15px;
+ 	}
+	.book0-internal {
+		padding-right: 0;
+	}
+
+	.book1 .description h2 {
+		margin-top:60px !important;
+		font-size:36px;
+	}
+
+	.book0 .description h2 {
+		font-size:36px;
+	}
+
+	/* Team */
+
+	#team .member {
+		padding:150px !important;
+		margin-top:-200px;
+	}    
+
+	#team .member:first-child {
+		margin-top:0;
+	}
+}
+
+
+@media (max-width:1024px) {
+	header {
+	    background-attachment: scroll;
+	}
+
+	header .logo {
+		position:static;
+		padding-top:100px;
+		text-align:center;
+	}
+	
+	.bg2 {
+	    background-attachment: scroll;
+	}
+
+	.bg3 {
+	    background-attachment: scroll;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#blog .single-news {
+		height:500px;
+	}
+
+	.book1 .description h2 {
+		font-size:36px;
+	}
+
+	.book0 .description h2 {
+		font-size:36px;
+	}	
+
+	/* Team */
+
+	#team .member {
+		padding:50px !important;
+	}    	
+
+	#team .member p.mayer {
+		min-height:450px;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	/* Books */
+
+	.book0 .description {
+		padding-left:0;
+	}
+
+	.book0 .first-btn {
+		margin-left:0;
+	}
+
+ 	#writers1-button {	
+		margin-right:0px;
+	}	
+
+	#member p {
+		font-size:14px;
+	}
+}

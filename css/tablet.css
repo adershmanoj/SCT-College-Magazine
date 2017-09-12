@@ -1,0 +1,142 @@
+/* Styles common to all small screen sizes */
+/* new classes */
+
+@media only screen and (max-width : 1024px) {
+
+	#wrapper {
+		margin: 0;
+		width: auto;
+		max-width: 1024px;
+	}
+
+	/* Branding */
+	#branding {
+		width: 100%;
+		float: left;
+	}
+
+	#branding h1 a {
+		width: 100%;
+	}
+
+	#branding .branding-container {
+		overflow: visible;
+	}
+
+	/* Nav */
+
+	nav#single {
+		width: auto;
+	}
+
+	nav#page {
+		display: none;
+	}
+
+	/* Content */
+
+	.content section.hd_section {
+		/* margin: 0 1em; */
+	}
+
+	.bg-cover{
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+
+	.has-background {
+		min-height: 1000px;
+	}
+
+	.has-background header {
+		margin-top: 10em;
+	}
+
+	.content section.hd_section {
+		width: auto;
+	}
+
+	.content section.hd_section.right {
+		padding: 0 1em 0 0;
+	}
+
+	.single .content {
+		padding-bottom: 4em;
+	}
+/*
+	.content-container.cover, .content .overlay.cover {
+		-webkit-background-size: auto;
+		   -moz-background-size: auto;
+			 -o-background-size: auto;
+				background-size: auto;
+	}
+*/
+	/* Comments */
+	#comments {
+		margin: 1em auto;
+	}
+
+	#comments .comment-author img {
+		display: none;
+	}
+
+	/* Footer */
+	#footer {
+		/* width: auto; */
+		padding: 2em 1em;
+	}
+
+	#footer-widgets {
+		/* margin: 0 0 3em; */
+	}
+
+	#footer .widget {
+		width: 25%;
+	}
+
+	.third-box {
+		width: 25%; 
+	}
+
+	/* Fixed Branding */
+	body.fixed #branding #site-title {
+		font-size: 3em;
+	}
+	body.fixed .content:first-of-type {
+		padding-top: 85px;
+	}
+	img {
+		max-width: 100%;
+		height: auto; 
+	}
+}
+
+@media only screen and (max-width : 768px) {
+
+	#wrapper {
+		max-width: 768px;
+	}
+
+	.content section.hd_section.left header,
+	.content section.hd_section.left .entry-summary,
+	.content section.hd_section.left .entry-content,
+	.content section.hd_section.left footer.entry-meta {
+		/* width: 50%; */
+	}
+
+	.content section.hd_section.center header,
+	.content section.hd_section.center .entry-summary,
+	.content section.hd_section.center .entry-content,
+	.content section.hd_section.center footer.entry-meta {
+		/* left: 150px; */
+	}
+
+	.content section.hd_section.right header,
+	.content section.hd_section.right .entry-summary,
+	.content section.hd_section.right .entry-content,
+	.content section.hd_section.right footer.entry-meta {
+		width: 50%;
+		left: 50%;
+	}
+
+}

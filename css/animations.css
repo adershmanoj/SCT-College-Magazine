@@ -1,0 +1,960 @@
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;  
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+    40% {-webkit-transform: translateY(-30px);} 
+    60% {-webkit-transform: translateY(-15px);} 
+} 
+
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+} 
+
+
+/* About */
+
+@-webkit-keyframes about {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes about {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    transform: translateY(300px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.about {
+  -webkit-animation-name: about;
+  animation-name: about;  
+}
+
+/* Magazine */
+
+/* Magazine - Titolo */
+
+@-webkit-keyframes magazineTitolo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes magazineTitolo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.magazineTitolo {
+  -webkit-animation-name: magazineTitolo;
+  animation-name: magazineTitolo;
+}
+
+/* Magazine - Divider */
+
+@-webkit-keyframes magazineDivider {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 180px;
+  }
+}
+
+@keyframes magazineDivider {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 180px;
+  }
+}
+
+.magazineDivider {
+  -webkit-animation-name: magazineDivider;
+  animation-name: magazineDivider;
+}
+
+/* Magazine - Immagine */
+
+@-webkit-keyframes magazineImmagineLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-200px);
+    transform: translateX(-200px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes magazineImmagineLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-200px);
+    -ms-transform: translateX(-200px);
+    transform: translateX(-200px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.magazineImmagineLeft {
+  -webkit-animation-name: magazineImmagineLeft;
+  animation-name: magazineImmagineLeft;
+}
+
+@-webkit-keyframes magazineImmagineRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    transform: translateX(200px);    
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);    
+  }
+}
+
+@keyframes magazineImmagineRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    transform: translateX(200px);    
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);    
+  }
+}
+
+.magazineImmagineRight {
+  -webkit-animation-name: magazineImmagineRight;
+  animation-name: magazineImmagineRight;
+}
+
+/* Magazine - Scritte */
+
+@-webkit-keyframes magazineScritte {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(150px);
+    transform: translateY(150px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes magazineScritte {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(150px);
+    -ms-transform: translateY(150px);
+    transform: translateY(150px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.magazineScritte {
+  -webkit-animation-name: magazineScritte;
+  animation-name: magazineScritte;
+}
+
+/* Press */
+
+/* Press - Titolo */
+
+@-webkit-keyframes pressTitolo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes pressTitolo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.pressTitolo {
+  -webkit-animation-name: pressTitolo;
+  animation-name: pressTitolo;
+}
+
+/* Press - Divider */
+
+@-webkit-keyframes pressDivider {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 103px;
+  }
+}
+
+@keyframes pressDivider {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 103px;
+  }
+}
+
+.pressDivider {
+  -webkit-animation-name: pressDivider;
+  animation-name: pressDivider;
+}
+
+/* Press - Brescia Oggi */
+
+@-webkit-keyframes bresciaOggi {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes bresciaOggi {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.bresciaOggi {
+  -webkit-animation-name: bresciaOggi;
+  animation-name: bresciaOggi;
+}
+
+/* Press - Libero */
+
+@-webkit-keyframes libero {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes libero {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.libero {
+  -webkit-animation-name: libero;
+  animation-name: libero;
+}
+
+/* Press - Il Giornale */
+
+@-webkit-keyframes ilGiornale {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes ilGiornale {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.ilGiornale {
+  -webkit-animation-name: ilGiornale;
+  animation-name: ilGiornale;
+}
+
+/* News */
+
+/* News - Titolo */
+
+@-webkit-keyframes newsTitolo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes newsTitolo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.newsTitolo {
+  -webkit-animation-name: newsTitolo;
+  animation-name: newsTitolo;
+}
+
+/* News - Divider */
+
+@-webkit-keyframes newsDivider {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100px;
+  }
+}
+
+@keyframes newsDivider {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100px;
+  }
+}
+
+.newsDivider {
+  -webkit-animation-name: newsDivider;
+  animation-name: newsDivider;
+}
+
+/* News - Articolo Su-Sinistra */
+
+@-webkit-keyframes newsSuSinistra {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-100px, -100px);
+    transform: translate(-100px, -100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);      
+  }
+}
+
+@keyframes newsSuSinistra {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-100px, -100px);    
+    -ms-transform: translate(-100px, -100px);    
+    transform: translate(-100px, -100px);  
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);    
+    -ms-transform: translate(0 0);    
+    transform: translateX(0, 0);          
+  }
+}
+
+.newsSuSinistra {
+  -webkit-animation-name: newsSuSinistra;
+  animation-name: newsSuSinistra;
+}
+
+/* News - Articolo Su */
+
+@-webkit-keyframes newsSu {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);      
+  }
+}
+
+@keyframes newsSu {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);    
+    transform: translateY(0);      
+  }
+}
+
+.newsSu {
+  -webkit-animation-name: newsSu;
+  animation-name: newsSu;
+}
+
+/* News - Articolo Su-Destra */
+
+@-webkit-keyframes newsSuDestra {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(100px, -100px);
+    transform: translate(100px, -100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);      
+  }
+}
+
+@keyframes newsSuDestra {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(100px, -100px);    
+    -ms-transform: translate(100px, -100px);    
+    transform: translate(100px, -100px);  
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);    
+    -ms-transform: translate(0, 0);    
+    transform: translateX(0, 0);          
+  }
+}
+
+.newsSuDestra {
+  -webkit-animation-name: newsSuDestra;
+  animation-name: newsSuDestra;
+}
+
+/* News - Articolo Giu-Sinistra */
+
+@-webkit-keyframes newsGiuSinistra {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-100px, 100px);
+    transform: translate(-100px, 100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);      
+  }
+}
+
+@keyframes newsGiuSinistra {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-100px, 100px);    
+    -ms-transform: translate(-100px, 100px);    
+    transform: translate(-100px, 100px);  
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);    
+    -ms-transform: translate(0 0);    
+    transform: translateX(0, 0);          
+  }
+}
+
+.newsGiuSinistra {
+  -webkit-animation-name: newsGiuSinistra;
+  animation-name: newsGiuSinistra;
+}
+
+/* News - Articolo Giu */
+
+@-webkit-keyframes newsGiu {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);      
+  }
+}
+
+@keyframes newsGiu {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);    
+    transform: translateY(0);      
+  }
+}
+
+.newsGiu {
+  -webkit-animation-name: newsGiu;
+  animation-name: newsGiu;
+}
+
+/* News - Articolo Giu-Destra */
+
+@-webkit-keyframes newsGiuDestra {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(100px, 100px);
+    transform: translate(100px, 100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);      
+  }
+}
+
+@keyframes newsGiuDestra {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(100px, 100px);    
+    -ms-transform: translate(100px, 100px);    
+    transform: translate(100px, 100px);  
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);    
+    -ms-transform: translate(0, 0);    
+    transform: translateX(0, 0);          
+  }
+}
+
+.newsGiuDestra {
+  -webkit-animation-name: newsGiuDestra;
+  animation-name: newsGiuDestra;
+}
+
+/* News - Divider Inviaci */
+
+@-webkit-keyframes newsDividerInviaci {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 500px;
+  }
+}
+
+@keyframes newsDividerInviaci {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 500px;
+  }
+}
+
+.newsDividerInviaci {
+  -webkit-animation-name: newsDividerInviaci;
+  animation-name: newsDividerInviaci;
+}
+
+/* News - Inviaci */
+
+@-webkit-keyframes newsInviaci {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);      
+  }
+}
+
+@keyframes newsInviaci {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);    
+    transform: translateY(0);      
+  }
+}
+
+.newsInviaci {
+  -webkit-animation-name: newsInviaci;
+  animation-name: newsInviaci;
+}
+
+/* Team */
+
+/* Team - Titolo */
+
+@-webkit-keyframes teamTitolo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes teamTitolo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.teamTitolo {
+  -webkit-animation-name: teamTitolo;
+  animation-name: teamTitolo;
+}
+
+/* Team - Divider */
+
+@-webkit-keyframes teamDivider {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 88px;
+  }
+}
+
+@keyframes teamDivider {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 88px;
+  }
+}
+
+.teamDivider {
+  -webkit-animation-name: teamDivider;
+  animation-name: teamDivider;
+}
+
+/* Team - Elementi */
+
+@-webkit-keyframes teamSu {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);      
+  }
+}
+
+@keyframes teamSu {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);    
+    transform: translateY(0);      
+  }
+}
+
+.teamSu {
+  -webkit-animation-name: teamSu;
+  animation-name: teamSu;
+}
+
+/* Contact */ 
+
+/* Contact - Titolo */
+
+@-webkit-keyframes contactTitolo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes contactTitolo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.contactTitolo {
+  -webkit-animation-name: contactTitolo;
+  animation-name: contactTitolo;
+}
+
+/* Contact - Divider */
+
+@-webkit-keyframes contactDivider {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 150px;
+  }
+}
+
+@keyframes contactDivider {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 150px;
+  }
+}
+
+.contactDivider {
+  -webkit-animation-name: contactDivider;
+  animation-name: contactDivider;
+}
+
+@-webkit-keyframes inputForm {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 420px;
+  }
+}
+
+@keyframes inputForm {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 420px;
+  }
+}
+
+.inputForm {
+  -webkit-animation-name: inputForm;
+  animation-name: inputForm;
+}
